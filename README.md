@@ -22,19 +22,20 @@ This data analysis project aims to identify factors contributing to missed appoi
 3. Development Environment: Jupyter Notebook on VS Code.
 
 # Key Findings
-* System-Related Factors
 1. Same-Day Scheduling: Patients who scheduled appointments on the same day were less likely to miss.
-2. SMS Received: Sending SMS reminders did not reduce no-shows and was weakly positively correlated with missed appointments.
-3. Scholarship: Receiving benefits from Bolsa Família did not significantly impact no-show rates.
-
-* Patient-Related Factors
-1. Age: Patients who missed appointments were generally younger than those who attended.
-2. Medical Conditions: Having multiple illnesses (hypertension and diabetes) was associated with lower no-show rates.
+2. SMS Notifications: Sending SMS reminders did not reduce no-shows and was weakly positively correlated with missed appointments.
+3. Bolsa Família Benefits: Receiving benefits from Bolsa Família did not significantly impact no-show rates.
+4. Personal Attributes:
+    - Age: Patients who missed appointments were generally younger.
+    - Medical Conditions: Having multiple illnesses was associated with lower no-show rates.
 
 # Limitations
 1. Binary Variables: Most columns are binary, limiting statistical methods.
 2. Correlation vs. Causation: Analysis focuses on correlation, not causation, requiring further studies.
 3. Weak Correlations: Many correlations were weak due to categorical variables.
+
+# Future Directions
+Further studies using inferential statistics are required to establish causal relationships between variables and identify effective strategies to reduce missed appointments.
 
 # Conclusion
 The project identified same-day scheduling as a key factor in reducing missed appointments. Patient-related factors like age and medical conditions also played a role. However, sending SMS reminders and receiving benefits from Bolsa Família did not significantly impact no-show rates.
